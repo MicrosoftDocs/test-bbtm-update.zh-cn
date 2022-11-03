@@ -1,0 +1,119 @@
+en:
+  achievements:
+    achievable:
+      arctic_code_vault_contributor:
+        tier_0:
+          description: '%{achieving_user_login} 在 %{link} 中贡献了代码 %{acv_count_with_repository}。'
+        unlocking_event:
+          explanation: '%{repository_with_pronoun} 已存档'
+      dust_bunny:
+        tier_0:
+          description: 你不应该通过 Linter！
+        unlocking_event:
+          explanation: 提交消息包含“linter”
+      galaxy_brain:
+        tier_0:
+          description: '%{achieving_user_login} 回答了讨论。'
+        tier_1:
+          description: '%{achieving_user_login} 回答了讨论。'
+        tier_2:
+          description: '%{achieving_user_login} 回答了讨论。'
+        tier_3:
+          description: '%{achieving_user_login} 回答了讨论。'
+        unlocking_event:
+          explanation: '%{threshold_ordinal} 接受答案'
+      heart_on_your_sleeve:
+        tier_0:
+          description: '%{achieving_user_login} 已使用 ❤️ 做出响应。'
+        tier_1:
+          description: '%{achieving_user_login} 已使用 ❤️ 做出响应。'
+        tier_2:
+          description: '%{achieving_user_login} 已使用 ❤️ 做出响应。'
+        tier_3:
+          description: '%{achieving_user_login} 已使用 ❤️ 做出响应。'
+        unlocking_event:
+          explanation: '%{threshold_ordinal} ❤️ 反应'
+      heartbreaker:
+        tier_0:
+          description: '你把我拆散了，%{achieving_user_name}！'
+        unlocking_event:
+          explanation: '关闭时为 %{reaction_count_phrase}'
+      mars2020_contributor:
+        tier_0:
+          description: '%{achieving_user_login} 贡献了 %{link} 中使用的代码 %{nasa_2020_count_with_repository}。'
+        unlocking_event:
+          explanation: '包含 %{repository_with_pronoun}'
+      open_sourcerer:
+        tier_0:
+          description: '%{achieving_user_login} 向多个开放源代码存储库贡献了代码。'
+        tier_1:
+          description: '%{achieving_user_login} 向多个开放源代码存储库贡献了代码。'
+        tier_2:
+          description: '%{achieving_user_login} 向多个开放源代码存储库贡献了代码。'
+        tier_3:
+          description: '%{achieving_user_login} 向多个开放源代码存储库贡献了代码。'
+        unlocking_event:
+          explanation: '%{threshold_ordinal} 开放源代码拉取请求已合并'
+      pair_extraordinaire:
+        tier_0:
+          description: '%{achieving_user_login} 共同创作的合并拉取请求提交。'
+        tier_1:
+          description: '%{achieving_user_login} 共同创作的合并拉取请求提交。'
+        tier_2:
+          description: '%{achieving_user_login} 共同创作的合并拉取请求提交。'
+        tier_3:
+          description: '%{achieving_user_login} 共同创作的合并拉取请求提交。'
+        unlocking_event:
+          explanation: '与 %{coauthor_login_mention} 共同创作'
+      polyglot:
+        tier_0:
+          description: '%{achieving_user_login} 已提交不同的文件类型。'
+        tier_1:
+          description: '%{achieving_user_login} 已提交不同的文件类型。'
+        tier_2:
+          description: '%{achieving_user_login} 已提交不同的文件类型。'
+        unlocking_event:
+          explanation: '%{threshold_ordinal} 文件类型已提交'
+      public_sponsor:
+        tier_0:
+          description: '%{achieving_user_login} 赞助 %{public_sponsors_sum_and_types}。'
+        unlocking_event:
+          explanation: 第一次赞助
+      pull_shark:
+        tier_0:
+          description: '%{achieving_user_login} 已打开已合并的拉取请求。'
+        tier_1:
+          description: '%{achieving_user_login} 已打开已合并的拉取请求。'
+        tier_2:
+          description: '%{achieving_user_login} 已打开已合并的拉取请求。'
+        tier_3:
+          description: '%{achieving_user_login} 已打开已合并的拉取请求。'
+        unlocking_event:
+          explanation: '%{threshold_ordinal} 拉取请求已合并'
+      quickdraw:
+        tier_0:
+          description: 吉蒂！
+        unlocking_event:
+          explanation: '打开后在 %{threshold_duration} 内关闭'
+      starstruck:
+        tier_0:
+          description: '%{achieving_user_login} 创建了一个包含许多星形的存储库。'
+        tier_1:
+          description: '%{achieving_user_login} 创建了一个包含许多星形的存储库。'
+        tier_2:
+          description: '%{achieving_user_login} 创建了一个包含许多星形的存储库。'
+        tier_3:
+          description: '%{achieving_user_login} 创建了一个包含许多星形的存储库。'
+        unlocking_event:
+          explanation: '⭐️ %{threshold} 星'
+      yolo:
+        tier_0:
+          description: 你想要吗？ 合并它。
+        unlocking_event:
+          explanation: 合并，无需审阅
+    disabled_cta:
+      ach_enabled_private_contributions_hidden: |
+        You unlocked new Achievements with private contributions! Show them off by including private contributions in your Profile in
+      ach_disabled_private_contributions_hidden: |
+        You unlocked new Achievements! Show them off by including achievements and private contributions in your Profile in
+      ach_disabled: You unlocked new Achievements on GitHub! Show them off by updating your Profile
