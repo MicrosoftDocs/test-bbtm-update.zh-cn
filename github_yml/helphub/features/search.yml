@@ -1,0 +1,49 @@
+id: search
+group: project-management
+product: Search on GitHub
+canned_pattern: search
+search: search
+docs_path: /search-github
+contact_path: /contact
+articles:
+  - path: /search-github/getting-started-with-searching-on-github/understanding-the-search-syntax
+    title: 了解搜索语法
+    subtitle: 搜索 GitHub 时，可以构造与特定数字和单词匹配的查询。
+  - path: /search-github/getting-started-with-searching-on-github/troubleshooting-search-queries
+    title: 搜索查询故障排除
+    subtitle: 如果在 GitHub 上搜索时遇到意外结果，可以通过查看常见问题和限制进行故障排除。
+  - path: /search-github/getting-started-with-searching-on-github/sorting-search-results
+    title: 排序搜索结果
+    subtitle: 可以使用“排序”菜单或向查询添加排序限定符对 GitHub 搜索结果进行排序。
+  - path: /rest/reference/search
+    title: 搜索 API
+    subtitle: 使用 GitHub 搜索 API 可以有效地搜索特定项。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的搜索文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /search-github
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/new-to-github'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的搜索更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=Search'
+video:
+  title: Git 擅长查找文件 • 如何在 GitHub 上快速查找文件
+  subtitle: "你曾经在大型存储库中丢失过文件吗？ 不记得存储到哪里了？ 文件查找器可帮助你轻松搜索任何存储库中的文件 \U0001F50D"
+  url: 'https://www.youtube.com/embed/aMD7XmtomOI?rel=0&amp;vq=hd720'
+community:
+  id: 21
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/new-to-github'

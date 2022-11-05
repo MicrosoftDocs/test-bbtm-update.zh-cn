@@ -1,0 +1,49 @@
+id: developers
+group: developers
+product: Developers
+canned_pattern: developer|app|marketplace|integration
+search: developer
+docs_path: /developers
+contact_path: /request/developers
+articles:
+  - path: /developers/overview/about-githubs-apis
+    title: 关于 GitHub 的 API
+    subtitle: 了解 GitHub 的 API，以扩展和自定义 GitHub 体验。
+  - path: /developers/webhooks-and-events/webhooks
+    title: Webhook
+    subtitle: 了解如何设置、测试和保护 Webhook 以与 GitHub 集成。
+  - path: /developers/apps
+    title: 应用
+    subtitle: 您可以通过构建自己的应用程序来自动化和简化工作流程。
+  - path: /developers/github-marketplace
+    title: GitHub 市场
+    subtitle: 在 GitHub 市场中列出可供开发人员使用或购买的工具。
+options:
+  - category: documentation
+    title: Guides
+    subtitle: 开始开发适用于 GitHub 的应用
+    img: microsites/documentation.svg
+    cta: Discover pathways
+    url:
+      docs_url: /developers/apps/guides
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在我们的社区讨论中提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/apis-and-integrations'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的生态系统更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=Ecosystem'
+video:
+  title: 演示日 - 创建 GitHub 应用
+  subtitle: 合作伙伴工程师 Steve Winton 解释了为什么有人可能想要生成 GitHub 应用，然后从头开始生成一个应用。 通过 API 创建与 GitHub 的第三方集成，并允许它们在受保护的资源上自主操作。
+  url: 'https://www.youtube.com/embed/iaBEWB1As0k?rel=0&amp;vq=hd720'
+community:
+  id: 37
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/apis-and-integrations'

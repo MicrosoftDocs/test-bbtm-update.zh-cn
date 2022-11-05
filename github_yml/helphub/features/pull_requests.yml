@@ -1,0 +1,49 @@
+id: pull-requests
+group: collaborative-coding
+product: Pull Requests
+canned_pattern: pull|pr|review|branch|fork|conflict|branch
+search: pull request
+docs_path: /pull-requests
+contact_path: /request/pull-requests
+articles:
+  - path: /pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models
+    title: 关于协作开发模式
+    subtitle: 使用拉取请求的方式取决于项目中使用的开发模型类型。 您可以使用复刻和拉取模型或共享仓库模型。
+  - path: /pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+    title: 创建拉取请求
+    subtitle: 创建拉取请求以提议和协作处理对存储库的更改。 这些更改在分支中提议，以确保默认分支只包含已完成和已批准的工作。
+  - path: /pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/committing-changes-to-a-pull-request-branch-created-from-a-fork
+    title: 将更改提交到从复刻创建的拉取请求分支
+    subtitle: 在拉取请求创建者的许可下，您可以在从仓库复刻创建的拉取请求分支上提交更改。
+  - path: /pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts
+    title: 关于合并冲突
+    subtitle: 在合并竞争提交的分支时会发生合并冲突，Git 需要您帮助确定最终合并中要加入哪些更改。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览拉取请求文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /pull-requests
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/pull-requests'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的拉取请求更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=Pull%20Request'
+video:
+  title: '草稿拉取请求 (WIP) '
+  subtitle: 如果要在“正式”提交拉取请求之前就拉取请求进行沟通和协作，可以起草 PR。
+  url: 'https://www.youtube.com/embed/l0Lw_zPX4TA?rel=0&amp;vq=hd720'
+community:
+  id: 69
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/pull-requests'

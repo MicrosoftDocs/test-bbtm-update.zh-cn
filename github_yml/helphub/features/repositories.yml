@@ -1,0 +1,52 @@
+id: repositories
+group: collaborative-coding
+product: Repositories
+canned_pattern: repo|fork
+search: repo
+docs_path: /repositories
+contact_path: /contact
+articles:
+  - path: /repositories/creating-and-managing-repositories
+    title: 创建和管理存储库
+    subtitle: 可以在 GitHub 上创建存储库来存储和协作处理项目的文件，然后管理存储库的名称和位置。
+  - path: /repositories/managing-your-repositorys-settings-and-features
+    title: 管理存储库的设置和功能
+    subtitle: 您可以自定义存储库、启用或禁用存储库的可选功能以及管理存储库的设置。
+  - path: /repositories/configuring-branches-and-merges-in-your-repository
+    title: 在存储库中配置分支和合并
+    subtitle: 您可以管理存储库中的分支，配置分支在存储库中的合并方式，并通过定义拉取请求的可合并性来保护重要分支。
+  - path: /repositories/working-with-files
+    title: 使用文件
+    subtitle: 了解如何管理和使用存储库中的文件。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的存储库文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /repositories
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/new-to-github'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的存储库更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=repository'
+video:
+  title: 查看和管理依赖项关系图 - GitHub 签出
+  subtitle: |
+    GitHub 依赖项关系图标识存储库或包的所有上游依赖项和公共下游依赖项。
+    可以查看项目的依赖项及其某些属性，例如漏洞信息。
+    听萨莎·罗森鲍姆和威廉·巴尔讨论依赖项，并参阅依赖项关系图！
+  url: 'https://www.youtube.com/embed/gNd_TGdZ1xc?rel=0&amp;vq=hd720'
+community:
+  id: 48
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/new-to-github'

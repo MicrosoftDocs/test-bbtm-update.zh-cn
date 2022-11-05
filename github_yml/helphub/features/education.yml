@@ -1,0 +1,48 @@
+id: education
+group: community
+product: Education
+canned_pattern: education|campus|classroom
+docs_path: /education
+contact_path: /request/education
+articles:
+  - path: /education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/apply-for-a-student-developer-pack
+    title: 申请学生开发包
+    subtitle: 作为学生，你可以申请 GitHub 学生开发人员包，其中包括 GitHub 合作伙伴的产品/服务和权益。
+  - path: /education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/why-wasnt-my-application-for-a-student-developer-pack-approved
+    title: 为什么我的学生开发包申请未获得批准？
+    subtitle: 查看 GitHub 学生开发人员包应用程序未获批准的常见原因，并了解成功重新应用技巧。
+  - path: /education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/about-github-education-for-students
+    title: 关于学生版 GitHub Education
+    subtitle: GitHub 教育为学生提供真实体验，免费访问 GitHub 合作伙伴提供的各种开发人员工具。
+  - path: /education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-in-your-classroom-and-research/apply-for-an-educator-or-researcher-discount
+    title: 申请教育者或研究人员折扣
+    subtitle: 如果你是教师或研究人员，可以申请免费接收组织帐户的 GitHub 团队。
+options:
+  - category: education
+    title: GitHub 教育& GitHub Global Campus
+    subtitle: 探索面向学生、教师和学校的 GitHub 全球校园。
+    img: microsites/education.svg
+    cta: Start exploring
+    url: 'https://education.github.com'
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/github-education'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的 GitHub 教育更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=Education'
+video:
+  title: GitHub Global Campus - GitHub Checkout
+  subtitle: 全球校园是我们 150 多万学生的家园。 在这里，学生可以从 GitHub Classroom 和作业、校园专家、校园电视等一个位置充分利用 GitHub 教育！
+  url: 'https://www.youtube.com/embed/5GocCQAwnrk?rel=0&amp;vq=hd720'
+community:
+  id: 53
+  path: 'https://github.com/orgs/community/discussions/categories/github-education'
+  status: open
+  after: 100

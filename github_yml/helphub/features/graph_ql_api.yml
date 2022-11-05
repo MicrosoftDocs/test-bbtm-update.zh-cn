@@ -1,0 +1,49 @@
+id: graph-ql-api
+group: developers
+product: GraphQL API
+canned_pattern: graphql|api
+search: graphql
+docs_path: /graphql
+contact_path: /request/developers
+articles:
+  - path: /graphql/overview/about-the-graphql-api
+    title: 关于 GraphQL API
+    subtitle: GitHub GraphQL API 提供灵活性和精确定义要提取的数据的功能。
+  - path: /graphql/guides/introduction-to-graphql
+    title: GraphQL 简介
+    subtitle: 了解使用 GitHub GraphQL API 的有用术语和概念。
+  - path: /graphql/guides/migrating-from-rest-to-graphql
+    title: 从 REST 迁移到 GraphQL
+    subtitle: 了解从 GitHub 的 REST API 迁移到 GitHub 的 GraphQL API 的最佳做法和注意事项。
+  - path: /graphql/overview/breaking-changes
+    title: 中断性变更
+    subtitle: 了解 GitHub GraphQL API 的最新和即将进行的中断性变更。
+options:
+  - category: documentation
+    title: Guides
+    subtitle: GraphQL API 入门。
+    img: microsites/documentation.svg
+    cta: Discover pathways
+    url:
+      docs_url: /graphql/guides
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在我们的社区讨论中提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/apis-and-integrations'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的 GraphQL API 更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=GraphQL'
+video:
+  title: GitHub 的 GraphQL API 的高级模式
+  subtitle: GitHub API 是大规模加速工作流的关键部分。 此会话将为你提供有关如何有效地分页、创建和计划查询、使用技术预览功能以及管理从 Toast 及以后的多年实践和迭代中学到的成本的战术提示。
+  url: 'https://www.youtube.com/embed/i5pIszu9MeM?rel=0&amp;vq=hd720'
+community:
+  id: 63
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/apis-and-integrations'

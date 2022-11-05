@@ -1,0 +1,48 @@
+id: sponsors
+group: community
+product: GitHub Sponsors
+canned_pattern: sponsor
+docs_path: /sponsors
+contact_path: /request/sponsors
+articles:
+  - path: /sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor
+    title: 赞助开源参与者
+    subtitle: 您可以向设计、创建或维护您所依赖的开源项目的开发者或组织每月定期付款。
+  - path: /sponsors/getting-started-with-github-sponsors/about-github-sponsors
+    title: 关于 GitHub 赞助商
+    subtitle: GitHub 赞助商计划允许开发人员社区直接在 GitHub 上为设计、构建和维护自身所依赖的开源项目的人员及组织提供经济支持。
+  - path: /sponsors/receiving-sponsorships-through-github-sponsors/tax-information-for-github-sponsors
+    title: GitHub 赞助商的税务信息
+    subtitle: 受赞助的开发人员和组织必须向 GitHub 提交税务信息，并负责评估和支付自己的税款。
+  - path: /sponsors/sponsoring-open-source-contributors
+    title: 赞助开源参与者
+    subtitle: 你可以赞助参与者，接收你赞助的开发人员和组织的最新消息，并在整个 GitHub 中显示赞助商徽章。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的 GitHub 赞助商文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /sponsors
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/new-to-github'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的 GitHub 赞助商更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/changelog/label/sponsors'
+video:
+  title: GitHub 赞助商：为开放源代码做贡献的新方式
+  subtitle: 我们很高兴地宣布 GitHub 赞助商，这是一种在财务上支持开发人员的新方式，他们构建了你每天使用的开放源代码软件。 开源开发人员为我们其他人生成工具。 GitHub 赞助商也是帮助他们取得成功的新工具。
+  url: 'https://www.youtube.com/embed/FYkBA9epUEk?rel=0&amp;vq=hd720'
+community:
+  id: 42
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/new-to-github'

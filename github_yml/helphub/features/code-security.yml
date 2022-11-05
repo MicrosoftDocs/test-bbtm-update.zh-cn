@@ -1,0 +1,48 @@
+id: code-security
+group: security
+product: Code Security
+canned_pattern: code|security
+docs_path: /code-security
+contact_path: /request/code-security
+articles:
+  - path: /code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies/about-alerts-for-vulnerable-dependencies
+    title: 关于易受攻击的依赖项的警报
+    subtitle: 当我们检测到影响存储库的漏洞时，GitHub 会发送 Dependabot 警报。
+  - path: /code-security/security-advisories/about-coordinated-disclosure-of-security-vulnerabilities
+    title: 关于安全漏洞的协调披露
+    subtitle: 漏洞披露是安全报告者与仓库维护者之间的协调工作。
+  - path: /code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/keeping-your-actions-up-to-date-with-dependabot
+    title: 使用 Dependabot 保持操作的最新状态
+    subtitle: 可以使用 Dependabot 将所使用的操作更新到最新版本。
+  - path: /code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates
+    title: 依赖项更新的配置选项
+    subtitle: 有关可用于自定义 Dependabot 如何维护存储库的所有选项的详细信息。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的帐户和个人资料文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /code-security
+  - category: documentation
+    title: Guides
+    subtitle: 了解 GitHub 可帮助你提高代码安全性的不同方式。
+    img: microsites/documentation.svg
+    cta: Learn more
+    url:
+      docs_url: /code-security/guides
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上了解最新的代码安全更新。
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=Security'
+video:
+  title: 自动安全评审 - GitHub 代码扫描
+  subtitle: 启用 GitHub 代码扫描就像邀请安全研究人员团队查看每个拉取请求一样。 通过使用 CodeQL 或我们的静态代码分析合作伙伴之一配置代码扫描，可以确保在进入生产环境之前无缝审查所有代码是否存在安全漏洞。
+  url: 'https://www.youtube.com/embed/z0wvGf3O69E?rel=0&amp;vq=hd720'
+community:
+  id: 21
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/new-to-github'

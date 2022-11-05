@@ -1,0 +1,49 @@
+id: issues
+group: project-management
+product: Issues
+canned_pattern: issue|task|project|board
+search: issue
+docs_path: /issues
+contact_path: /request/issues
+articles:
+  - path: /issues/tracking-your-work-with-issues/about-issues
+    title: 关于问题
+    subtitle: 使用 GitHub 问题跟踪 GitHub 上工作的想法、反馈、任务或 bug。
+  - path: /issues/planning-and-tracking-with-projects/learning-about-projects/about-projects
+    title: 关于项目
+    subtitle: 项目是一种适应性好、灵活的工具，用于在 GitHub 上规划和跟踪工作。
+  - path: /issues/planning-and-tracking-with-projects/creating-projects/creating-a-project
+    title: 创建项目
+    subtitle: 了解如何创建组织或用户项目。
+  - path: /issues/tracking-your-work-with-issues/about-task-lists
+    title: 关于任务列表
+    subtitle: 您可以使用任务列表将议题或拉取请求的工作分解为较小的任务，然后跟踪要完成的整套工作。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的问题文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /issues
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/issues'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新问题更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/changelog/label/issues'
+video:
+  title: GitHub 问题：使用项目进行功能规划
+  subtitle: 面向开发人员的项目规划。 查看有关如何使用新项目体验来规划下一个功能的演示。
+  url: 'https://www.youtube.com/embed/yFQ-p6wMS_Y?rel=0&amp;vq=hd720&list=PL0lo9MOBetEG8TZty9Z38oSZAY8FjkaB7&index=1'
+community:
+  id: 68
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/issues'

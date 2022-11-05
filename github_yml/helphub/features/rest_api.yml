@@ -1,0 +1,49 @@
+id: rest-api
+group: developers
+product: REST API
+canned_pattern: rest|api
+search: rest
+docs_path: /rest
+contact_path: /request/developers
+articles:
+  - path: /rest/overview/resources-in-the-rest-api
+    title: REST API 中的资源
+    subtitle: 了解如何导航 GitHub API 提供的资源。
+  - path: /rest/overview/troubleshooting
+    title: 故障排除
+    subtitle: 学习如何解决用户在 REST API 中遇到的最常见问题。
+  - path: /rest/guides/basics-of-authentication
+    title: 身份验证基础知识
+    subtitle: 通过一些示例了解几种不同的身份验证方法。
+  - path: /rest/guides/best-practices-for-integrators
+    title: 集成商最佳做法
+    subtitle: 生成与 GitHub API 可靠交互并为用户提供最佳体验的应用。
+options:
+  - category: documentation
+    title: Guides
+    subtitle: REST API 和身份验证入门。
+    img: microsites/documentation.svg
+    cta: Discover pathways
+    url:
+      docs_url: /rest/guides
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在我们的社区讨论中提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/apis-and-integrations'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的 REST API 更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=REST%20API'
+video:
+  title: 使用 Webhook 和 REST 构建 GitHub 集成 - GitHub Satellite 2020
+  subtitle: Webhook 是用于支持项目现有工具中的实时集成和工作流的宝贵工具。 此会话将演练生成 Webhook 驱动的应用程序的方法，该应用程序在 GitHub 上发生的事件时充当这些事件。 你还将了解如何在收到事件后通过 Octokit SDK 使用 GitHub REST API 来调用其他资源。
+  url: 'https://www.youtube.com/embed/wcxOJq9YemE?rel=0&amp;vq=hd720'
+community:
+  id: 60
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/apis-and-integrations'

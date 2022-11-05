@@ -1,0 +1,49 @@
+id: organizations
+group: enterprise-and-teams
+product: Organizations
+canned_pattern: organization|membership|team
+search: org
+docs_path: /organizations
+contact_path: /contact
+articles:
+  - path: /organizations/collaborating-with-groups-in-organizations
+    title: 与组织中的团体协作
+    subtitle: 组织帐户中的人员团体可同时跨多个项目展开协作。
+  - path: /organizations/managing-membership-in-your-organization
+    title: Managing membership in your organization（管理组织中的成员身份）
+    subtitle: 创建组织后，可以邀请他人成为组织成员。 您也可以删除组织的成员，以及恢复前成员。
+  - path: /organizations/managing-peoples-access-to-your-organization-with-roles
+    title: 使用角色管理用户对组织的访问权限
+    subtitle: 您可以通过为人员提供组织、仓库和团队角色来控制对组织设置和仓库的访问。
+  - path: /organizations/organizing-members-into-teams
+    title: 将成员组织为团队
+    subtitle: 您可以将组织成员组成团队，通过级联访问权限和提及来反映公司或群组结构。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的组织文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /organizations
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/new-to-github'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的组织更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=organization'
+video:
+  title: 组织的自述文件配置文件：介绍组织配置文件自述文件
+  subtitle: 组织自述文件在组织的主页上特别推荐。 创建“关于”部分，展示你的出色项目，或只是添加一整堆 gif！
+  url: 'https://www.youtube.com/embed/oQnJ6XYp_YM?rel=0&amp;vq=hd720'
+community:
+  id: 21
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/new-to-github'

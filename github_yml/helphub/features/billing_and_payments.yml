@@ -1,0 +1,49 @@
+id: billing_and_payments
+group: get-started
+product: Billing and payments
+canned_pattern: billing|payments
+search: pay
+docs_path: /billing
+contact_path: /request/billing_and_payments
+articles:
+  - path: /billing/managing-your-github-billing-settings
+    title: 管理 GitHub 计费设置
+    subtitle: 帐户的计费设置应用于您添加到帐户的每项付费功能或产品。 您可以管理支付方式、结算周期和帐音邮箱等设置。 您也可以查看帐单信息，如订阅、帐单日期、付款记录和以前的收据。
+  - path: /billing/managing-billing-for-your-github-account
+    title: 管理 GitHub 帐户的计费
+    subtitle: GitHub 为每个帐户提供免费和付费产品。 可以随时升级、降级和查看帐户订阅的挂起更改。
+  - path: /billing/managing-billing-for-github-actions
+    title: 管理 GitHub Actions 的计费
+    subtitle: 可以查看使用情况并为GitHub Actions设置支出限制。
+  - path: billing/managing-billing-for-github-sponsors
+    title: 管理 GitHub 赞助者的计费
+    subtitle: 您可以升级或降级每个赞助的等级。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的计费和付款文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /billing
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/new-to-github'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的计费和付款更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=Payment'
+video:
+  title: GitHub 赞助商体验改进 - GitHub Checkout
+  subtitle: 赞助团队建立业务所基于开放源代码软件。 为构成软件供应链的项目提供资金，以提高其性能、可靠性和稳定性。
+  url: 'https://www.youtube.com/embed/YLhOHFMA5kU?rel=0&amp;vq=hd720'
+community:
+  id: 42
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/new-to-github'

@@ -1,0 +1,49 @@
+id: packages
+group: ci-cd-devops
+product: GitHub Packages
+canned_pattern: packages
+search: packages
+docs_path: /packages
+contact_path: /request/packages
+articles:
+  - path: /packages/learn-github-packages/introduction-to-github-packages
+    title: GitHub Packages 简介
+    subtitle: GitHub Packages 是一种软件包托管服务，允许您以私有方式或公开方式托管软件包，并将软件包用作项目中的依赖项。
+  - path: /packages/learn-github-packages/about-permissions-for-github-packages
+    title: 关于 GitHub Packages 的权限
+    subtitle: 了解如何管理包的权限。
+  - path: /packages/learn-github-packages/deleting-and-restoring-a-package
+    title: 删除或还原包
+    subtitle: 了解如何删除或恢复包。
+  - path: /packages/working-with-a-github-packages-registry/migrating-to-the-container-registry-from-the-docker-registry
+    title: 从 Docker 注册表迁移到容器注册表
+    subtitle: 以前存储在 Docker 注册表中的 Docker 映像将自动迁移到容器注册表。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的 GitHub Packages 文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /packages
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/actions-and-packages'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的 GitHub 包更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=GitHub%20Packages'
+video:
+  title: 随 GitHub Actions 和 GitHub 包一起交付
+  subtitle: 了解GitHub Actions和包的核心概念和各种组件。
+  url: 'https://www.youtube.com/embed/-2UgL63_yB4?rel=0&amp;vq=hd720'
+community:
+  id: 43
+  path: 'https://github.com/orgs/community/discussions/categories/actions-and-packages'
+  status: open

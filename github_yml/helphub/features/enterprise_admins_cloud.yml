@@ -1,0 +1,50 @@
+id: enterprise-administrators-cloud
+group: enterprise-and-teams
+product: Enterprise Administrators (Cloud)
+canned_pattern: enterprise|saml
+search: enterprise
+docs_path: /enterprise-cloud/admin
+contact_path: /contact
+articles:
+  - path: /enterprise-cloud/admin/configuration/configuring-your-enterprise/verifying-or-approving-a-domain-for-your-enterprise
+    title: 验证或批准您企业的域
+    subtitle: 可以使用 GitHub 验证域的所有权，以确认企业帐户拥有的组织的身份。 您也可以批准组织成员可以接收电子邮件通知的域名。
+  - path: enterprise-cloud/admin/user-management/managing-organizations-in-your-enterprise/viewing-the-audit-logs-for-organizations-in-your-enterprise
+    title: 查看企业中组织的审核日志
+    subtitle: 企业所有者可以在其审核日志中查看企业帐户拥有的所有组织的聚合操作。
+  - path: /enterprise-cloud/admin/user-management/monitoring-activity-in-your-enterprise/managing-global-webhooks
+    title: 管理全局 web 挂钩
+    subtitle: 您可以配置全局 web 挂钩，以便在企业内部发生事件时通知外部 Web 服务器。
+  - path: /enterprise-cloud/admin/authentication/managing-identity-and-access-for-your-enterprise/about-identity-and-access-management-for-your-enterprise
+    title: 关于企业的标识和访问管理
+    subtitle: 可以使用 SAML 单一登录 (SSO) 和 System for Cross-domain Identity Management (SCIM) 在 GitHub.com 集中管理对企业拥有的组织的访问权限。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的 GitHub Enterprise 文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /enterprise-cloud@latest/admin
+  - category: documentation
+    title: Guides
+    subtitle: 了解如何使用 GitHub Enterprise Cloud 提高开发人员的工作效率和代码质量。
+    img: microsites/enterprise-server.svg
+    cta: Discover pathways
+    url:
+      docs_url: /enterprise-cloud@latest/admin/guides
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的 GitHub Enterprise 更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=enterprise'
+video:
+  title: 企业中的 GitHub - GitHub Universe 2021
+  subtitle: 由企业高级总监玛雅·罗斯主持
+  url: 'https://www.youtube.com/embed/1-i39RqaxRs?rel=0&amp;vq=hd720'
+community:
+  id: 36
+  status: public
+  after: nil
+  path: 'https://github.com/orgs/community/discussions/categories/announcements'

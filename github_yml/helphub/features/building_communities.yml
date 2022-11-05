@@ -1,0 +1,50 @@
+id: building-communities
+group: community
+product: Building Communities
+canned_pattern: community|communities|opensource
+search: community
+docs_path: /communities
+contact_path: /contact
+articles:
+  - path: /communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
+    title: 为仓库创建拉取请求模板
+    subtitle: 将拉取请求模板添加到仓库后，项目贡献者会自动在拉取请求正文中看到模板的内容。
+  - path: /communities/maintaining-your-safety-on-github/reporting-abuse-or-spam
+    title: 举报滥用或垃圾邮件
+    subtitle: 您可以举报违反社区准则和条款的行为和内容。
+  - path: /communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository
+    title: 添加许可到仓库
+    subtitle: 您可以在仓库中包含开源许可，以便于其他人参与。
+  - path: /communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+    title: 为仓库配置议题模板
+    subtitle: 您可以自定义贡献者在仓库中打开新议题时可使用的模板。
+options:
+  - category: documentation
+    title: Guides
+    subtitle: 管理社区的指南。
+    img: microsites/documentation.svg
+    cta: Discover pathways
+    url:
+      docs_url: /communities#guides-2
+  - category: community_forum
+    title: 询问我们的社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/new-to-github'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的社区更新。
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=community'
+video:
+  title: 通过 GitHub 讨论与社区联系
+  subtitle: |
+    可以使用讨论执行一些伟大的操作，例如：✔️与社区✔️联系 使用类别✔️添加标签等！
+  url: 'https://www.youtube.com/embed/8ty3aTxfqRg?rel=0&amp;vq=hd720'
+community:
+  id: 48
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/new-to-github'

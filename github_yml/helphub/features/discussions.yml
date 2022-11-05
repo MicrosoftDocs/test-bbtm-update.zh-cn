@@ -1,0 +1,47 @@
+id: discussions
+group: collaborative-coding
+product: GitHub Discussions
+canned_pattern: discussions
+docs_path: /discussions
+contact_path: /request/discussions
+articles:
+  - path: /discussions/guides/granting-higher-permissions-to-top-contributors
+    title: 向顶级贡献者授予更高的权限
+    subtitle: 仓库管理员可以将任何社区成员提升到主持人和维护员。
+  - path: /discussions/guides/best-practices-for-community-conversations-on-github
+    title: GitHub 上社区对话的最佳实践
+    subtitle: 您可以使用讨论与团队进行头脑风暴，并在准备好确定工作范围时最终将对话移动到议题中。
+  - path: /discussions/guides/finding-discussions-across-multiple-repositories
+    title: 跨多个存储库查找讨论
+    subtitle: 可以轻松地跨多个存储库访问已创建或参与的每个讨论。
+  - path: /discussions/collaborating-with-your-community-using-discussions/collaborating-with-maintainers-using-discussions
+    title: 使用讨论与维护者协作
+    subtitle: 可以通过在讨论中与项目的维护者沟通，为 GitHub 上的项目的目标、计划、运行状况和社区做出贡献。
+options:
+  - category: documentation
+    title: Guides
+    subtitle: 开始参与和监视社区讨论。
+    img: microsites/documentation.svg
+    cta: Discover pathways
+    url:
+      docs_url: /discussions/guides
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在我们的社区讨论中提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url: 'https://github.com/orgs/community/discussions/categories/discussions'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的 GitHub 讨论更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=Discussions'
+video:
+  title: GitHub 讨论 60 秒
+  subtitle: GitHub 讨论的快速入门方法。
+  url: 'https://www.youtube.com/embed/IpBw2SJkFyk?rel=0&amp;vq=hd720'
+community:
+  id: 48
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/new-to-github'

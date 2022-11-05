@@ -1,0 +1,49 @@
+id: account
+group: get-started
+product: Account and profile
+canned_pattern: account|2fa|two|factor|auth|notification|flagged|email
+search: account
+docs_path: /account-and-profile
+contact_path: /request/account
+articles:
+  - path: /authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication
+    title: 双因素身份验证
+    subtitle: 使用双因素身份验证 (2FA) ，必须使用用户名和密码登录，并提供只有你知道或有权访问的另一种身份验证形式。
+  - path: /account-and-profile/managing-subscriptions-and-notifications-on-github
+    title: 在 GitHub 上管理订阅和通知
+    subtitle: 您可以指定如何接收通知，您感兴趣的仓库，以及您想要听到的活动类型。
+  - path: /account-and-profile/setting-up-and-managing-your-github-user-account/managing-user-account-settings/deleting-your-user-account
+    title: 删除帐户
+    subtitle: 可以随时删除 GitHub 用户帐户。
+  - path: /account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/changing-your-primary-email-address
+    title: 更改主电子邮件地址
+    subtitle: 可以随时更改与用户帐户关联的电子邮件地址。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的帐户和个人资料文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /account-and-profile
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/new-to-github'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的帐户和个人资料更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=Account'
+video:
+  title: 什么是 GitHub？
+  subtitle: 是否曾想过 GitHub 的工作原理？
+  url: 'https://www.youtube.com/embed/w3jLJU7DT5E?rel=0&amp;vq=hd720'
+community:
+  id: 42
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/new-to-github'

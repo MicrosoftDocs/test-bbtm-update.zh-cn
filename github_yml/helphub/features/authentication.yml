@@ -1,0 +1,49 @@
+id: authentication
+group: get-started
+product: Authentication
+canned_pattern: auth|2fa|two|factor|password
+search: auth
+docs_path: /authentication
+contact_path: /request/account
+articles:
+  - path: /authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication
+    title: 双因素身份验证
+    subtitle: 使用双因素身份验证 (2FA) ，必须使用用户名和密码登录，并提供只有你知道或有权访问的另一种身份验证形式。
+  - path: /authentication/keeping-your-account-and-data-secure
+    title: 保护帐户和数据安全
+    subtitle: 若要保护个人信息，应确保帐户 GitHub.com 和任何关联数据的安全。
+  - path: /authentication/troubleshooting-ssh
+    title: SSH 故障排除
+    subtitle: 使用 SSH 连接 GitHub 并对其进行身份验证时，可能需要排查可能出现的意外问题。
+  - path: /authentication/troubleshooting-commit-signature-verification
+    title: 对提交签名验证进行故障排除
+    subtitle: 可能需要排查在本地签署提交以在 GitHub 上进行验证时出现的意外问题。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的身份验证文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /authentication
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/new-to-github'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的身份验证更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=Authentication'
+video:
+  title: Git 擅长保护代码 • 如何在 GitHub 上启用 2FA
+  subtitle: "是否知道使用 2FA 是保护代码 \U0001F512的最佳方法之一。 如果还没有双重身份验证设置，请查看如何立即启用此功能。"
+  url: 'https://www.youtube.com/embed/j6beTHnsumI?rel=0&amp;vq=hd720'
+community:
+  id: 42
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/new-to-github'

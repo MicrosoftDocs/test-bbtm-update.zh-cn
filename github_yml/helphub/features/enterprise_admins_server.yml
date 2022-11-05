@@ -1,0 +1,49 @@
+id: enterprise-administrators-server
+group: enterprise-and-teams
+product: Enterprise Administrators (Server)
+canned_pattern: enterprise|server|license
+search: enterprise
+docs_path: /enterprise-server/admin
+contact_path: /request/enterprise_server
+articles:
+  - path: /enterprise-server/get-started/signing-up-for-github/setting-up-a-trial-of-github-enterprise-server
+    title: 设置 GitHub Enterprise Server 试用版
+    subtitle: 可以免费试用 GitHub Enterprise Server。
+  - path: /enterprise-server/admin/installation
+    title: 安装 GitHub Enterprise
+    subtitle: 系统管理员、运营和安全专家可以安装 GitHub Enterprise Server。
+  - path: /enterprise-server/billing/managing-your-license-for-github-enterprise
+    title: 管理 GitHub Enterprise 的许可证
+    subtitle: GitHub Enterprise 包括云部署和自承载部署选项。 如果托管 GitHub Enterprise Server 实例，则必须使用许可证文件解锁该实例。 您可以查看、管理和更新许可证文件。
+  - path: enterprise-server/admin/configuration/configuring-your-enterprise/command-line-utilities
+    title: 命令行实用程序
+    subtitle: GitHub Enterprise Server 包含各种实用工具，可帮助解决特定问题或执行特定任务。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的 GitHub Enterprise 文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /enterprise-server/admin
+  - category: documentation
+    title: 升级
+    subtitle: 查找当前版本的 GitHub Enterprise Server 的升级路径
+    img: microsites/enterprise-server.svg
+    cta: Upgrade GitHub Enterprise Server
+    url: /enterprise/server-upgrade
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的 GitHub Enterprise 更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=enterprise'
+video:
+  title: 企业中的 GitHub - GitHub Universe 2021
+  subtitle: 由企业高级总监 Maya Ross 主持
+  url: 'https://www.youtube.com/embed/1-i39RqaxRs?rel=0&amp;vq=hd720'
+community:
+  id: 36
+  status: public
+  after: nil
+  path: 'https://github.com/orgs/community/discussions/categories/announcements'

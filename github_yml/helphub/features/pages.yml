@@ -1,0 +1,48 @@
+id: pages
+group: ci-cd-devops
+product: GitHub Pages
+canned_pattern: pages
+search: pages
+docs_path: /pages
+contact_path: /request/pages
+articles:
+  - path: /pages/configuring-a-custom-domain-for-your-github-pages-site
+    title: 配置 GitHub Pages 站点的自定义域
+    subtitle: 可以自定义 GitHub Pages 站点的域名。
+  - path: /pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages
+    title: 自定义域和 GitHub Pages 疑难解答
+    subtitle: 可以检查常见错误，以解决 GitHub Pages 站点的自定义域或 HTTPS 问题。
+  - path: /pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+    title: 配置 GitHub Pages 站点的发布源
+    subtitle: 如果对 GitHub Pages 站点使用默认发布源，则站点将自动发布。 您也可以选择从不同的分支或文件夹发布您的站点。
+  - path: /pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https
+    title: 使用 HTTPS 保护 GitHub Pages 站点
+    subtitle: HTTPS 增加一层加密，用于防止其他人窥探或篡改您的站点的流量。 可以为 GitHub Pages 站点强制实施 HTTPS，以透明方式将所有 HTTP 请求重定向到 HTTPS。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的 GitHub Pages 文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /pages
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/general'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的 GitHub Pages 更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=GitHub%20Pages'
+video:
+  title: GitHub 页面的访问控制 - GitHub Checkout
+  subtitle: GitHub Pages 现在提供限制访问的选项，使网站仅对有权访问发布页面的存储库的用户可见。
+  url: 'https://www.youtube.com/embed/8lCtcFkGh0U?rel=0&amp;vq=hd720'
+community:
+  id: 31
+  path: 'https://github.com/orgs/community/discussions/categories/general'

@@ -1,0 +1,48 @@
+id: codespaces
+group: collaborative-coding
+product: GitHub Codespaces
+canned_pattern: codespaces
+search: codespace
+docs_path: /codespaces
+contact_path: /request/codespaces
+articles:
+  - path: /billing/managing-billing-for-github-codespaces/about-billing-for-codespaces
+    title: 关于 GitHub Codespaces 的计费
+    subtitle: 查看定价并了解如何管理组织的 Codespaces 计费。
+  - path: /codespaces/managing-codespaces-for-your-organization/enabling-codespaces-for-your-organization
+    title: 为组织启用 Codespaces
+    subtitle: 可以控制组织中的哪些用户可以使用 Codespaces。
+  - path: /codespaces/setting-up-your-codespace/configuring-codespaces-for-your-project
+    title: 为项目配置 Codespaces
+    subtitle: 可以使用 devcontainer.json 文件为存储库定义 Codespaces 环境。
+  - path: /codespaces/managing-codespaces-for-your-organization/managing-repository-access-for-your-organizations-codespaces
+    title: 管理组织的 Codespaces 的存储库访问
+    subtitle: 您可以管理 Codespaces 可以访问的组织中的存储库。
+options:
+  - category: examples
+    title: 代码示例
+    subtitle: 浏览 codespaces 示例
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /codespaces#code-examples
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在我们的社区讨论中提出问题、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url: 'https://github.com/orgs/community/discussions/categories/codespaces'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的 GitHub Codespaces 更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=Codespaces'
+video:
+  title: 使 Codespaces 为你工作 - GitHub Universe 2021
+  subtitle: 颁发者：艾莉森·温斯，高级项目经理，贝利·布鲁克斯，项目经理二
+  url: 'https://www.youtube.com/embed/X9Z-rUixnzk?rel=0&amp;vq=hd720'
+community:
+  id: 52
+  status: open
+  path: 'https://github.com/orgs/community/discussions/categories/codespaces'

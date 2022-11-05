@@ -1,0 +1,48 @@
+id: actions
+group: ci-cd-devops
+product: GitHub Actions
+search: actions
+canned_pattern: actions
+docs_path: /actions
+contact_path: /request/actions
+articles:
+  - path: /actions/reference/workflow-syntax-for-github-actions
+    title: 工作流程语法
+    subtitle: 工作流程是可配置的自动化过程，由一个或多个作业组成。 您必须创建 YAML 文件来定义工作流程配置。
+  - path: /actions/reference/events-that-trigger-workflows
+    title: 触发工作流的事件
+    subtitle: 可以将工作流配置为在 GitHub 上发生特定活动时、在计划时间或在 GitHub 外部发生事件时运行。
+  - path: /actions/reference/context-and-expression-syntax-for-github-actions
+    title: 上下文和表达式语法
+    subtitle: 可以在工作流和操作中访问上下文信息并计算表达式。
+  - path: /actions/reference/encrypted-secrets
+    title: 加密机密
+    subtitle: 通过加密的机密，可以将敏感信息存储在存储库或组织中。
+options:
+  - category: documentation
+    title: 帮助文档
+    subtitle: 浏览我们的GitHub Actions文档。
+    img: microsites/documentation.svg
+    cta: Start exploring
+    url:
+      docs_url: /actions
+  - category: community_forum
+    title: 询问社区
+    subtitle: 在社区论坛上提问、交换故事、分享想法。
+    img: microsites/community.svg
+    cta: Get involved
+    url:
+      community_url: 'https://github.com/orgs/community/discussions/categories/actions-and-packages'
+  - category: github_blog
+    title: 新变化
+    subtitle: 在我们的博客上发现最新的GitHub Actions更新
+    img: microsites/blog.svg
+    cta: Learn more
+    url: 'https://github.blog/?s=GitHub%20Actions'
+video:
+  title: 观看 GitHub Satellite 的GitHub Actions演讲
+  subtitle: 了解GitHub Actions的核心概念和各种组件。
+  url: 'https://www.youtube.com/embed/-2UgL63_yB4?rel=0&amp;vq=hd720'
+community:
+  id: 41
+  path: 'https://github.com/orgs/community/discussions/categories/actions-and-packages'
